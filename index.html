@@ -1,9 +1,77 @@
 <!doctype html>
 <html lang="en">
+
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="This is my first site for this wdd 231 cours">
+		<meta name="author" content="Heriniaina Andriananjamarotafika">
+		<title>Heriniaina Andriananjamarotafika</title>
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/base.css">
+		<link rel="stylesheet" href="styles/large.css">
+		<script src="scripts/navigation.js" defer></script>
+		<script src="scripts/script.js" defer></script>
+		<script src="scripts/date.js" defer></script>
 	</head>
-	<body></body>
+
+	<body>
+		<header>
+			<img src="images/christmas-tree.svg" alt="Christmas tree" width="64" height="64">
+			<span>Heriniaina Andriananjamarotafika</span>
+			<button id="nav-button" class="hamburger" aria-label="Toggle navigation" aria-expanded="false"></button>
+		</header>
+		<main>
+			<nav id="nav-bar" class="navigation">
+				<ul>
+					<li class="current"><a href="#" aria-current="page">Home</a></li>
+					<li><a href="#">Chamber</a></li>
+					<li><a href="#">Final</a></li>
+				</ul>
+			</nav>
+			<h1 id="page-title">Home</h1>
+			<div class="about-me">
+				<section class="card">
+					<h2 class="card-title">About Me</h2>
+					<p>
+						My name is Heriniaina Andriananjamarotafika. I am a student at
+						BYU-Idaho studying Web Development. I have a passion for creating
+						dynamic and interactive web applications. My goal is to become a
+						proficient web developer and contribute to the tech industry.
+					</p>
+				</section>
+				<section class="card">
+					<h2 class="card-title">Student Photo</h2>
+					<p>
+						<img src="images/heriniaina.jpg" alt="Heriniaina Andriananjamarotafika" width="400"
+							height="400">
+					</p>
+				</section>
+			</div>
+
+			<section class="card">
+				<h2 class="card-title">Web Certificate</h2>
+				<div class="certificate">
+					<div class="course-filters" role="group" aria-label="Filter certificate courses">
+						<button class="course-filter is-active" type="button" data-filter="all" aria-pressed="true">All
+							Courses</button>
+						<button class="course-filter" type="button" data-filter="WDD" aria-pressed="false">WDD
+							Courses</button>
+						<button class="course-filter" type="button" data-filter="CSE" aria-pressed="false">CSE
+							Courses</button>
+					</div>
+					<p class="course-count" id="course-count" aria-live="polite"></p>
+					<div class="course-list" id="course-list" aria-live="polite"></div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p>
+				&copy; <span id="current-year"></span>🇲🇬 Heriniaina
+				Andriananjamarotafika 🇲🇬 - Madagascar - All rights reserved.
+			</p>
+			<p id="lastModified"></p>
+		</footer>
+	</body>
+
 </html>
