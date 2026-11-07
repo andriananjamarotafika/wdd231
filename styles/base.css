@@ -187,3 +187,20 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.social-links img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.social-links a:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 3px;
+}
