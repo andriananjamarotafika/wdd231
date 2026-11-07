@@ -2,6 +2,7 @@
     --primary-color: #cd341cc6;
     --secondary-color: #097709f0;
     --text-color: #ffffffec;
+    --transparent-color: #ffffff00;
     font-family: "Montserrat", "Lato", "Open Sans", sans-serif;
 }
 
@@ -139,7 +140,7 @@ img {
 }
 
 button {
-    background-color: transparent;
+    background-color: var(--transparent-color);
     border: none;
     cursor: pointer;
 }
