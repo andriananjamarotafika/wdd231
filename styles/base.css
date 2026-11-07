@@ -1,13 +1,14 @@
 :root {
     --primary-color: #cd341cc6;
     --secondary-color: #097709f0;
-    --text-color: #ffffff;
+    --text-color: #ffffffec;
+    font-family: "Montserrat", "Lato", "Open Sans", sans-serif;
 }
 
 body {
     max-width: 72rem;
     margin-inline: auto;
-    font-family: "Roboto", sans-serif;
+
 
 }
 
