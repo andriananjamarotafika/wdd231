@@ -1,6 +1,6 @@
 :root {
     --primary-color: #176B53;
-    --secondary-color: #fccb77;
+    --secondary-color: #eed5aa;
     --background-color: #F7F5EF;
     --text-color: #17342F;
     --white-color: #fff;
@@ -65,7 +65,7 @@ h1 {
     flex: 0 0 auto;
     padding: 0;
     border: 0;
-    background: transparent;
+    background: #00000000;
     cursor: pointer;
 }
 
@@ -109,7 +109,7 @@ nav ul {
 nav a {
     display: block;
     padding: 0.75rem;
-    border-left: 3px solid transparent;
+    border-left: 3px solid #00000000;
     color: var(--background-color);
     font-weight: 600;
     text-decoration: none;
