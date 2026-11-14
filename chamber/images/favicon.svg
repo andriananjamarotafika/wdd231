@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Madagascar Chamber of Commerce</title>
+  <circle cx="256" cy="256" r="238" fill="#0d493b"></circle>
+  <circle cx="256" cy="256" r="216" fill="none" stroke="#d9b45b" stroke-width="5"></circle>
+  <circle cx="256" cy="256" r="198" fill="none" stroke="#d9b45b" stroke-opacity=".45" stroke-width="2"></circle>
+
+  <!-- Madagascar -->
+  <path d="M378 118l18 9 13 23-4 23 8 22-9 24 4 22-14 25-4 25-15 17-5 27-17 19-6 27-16 23-13-7-3-20-12-16-4-29-12-19 4-25-5-19 11-25-2-22 17-17 3-27 18-18 6-32 18-20z" fill="#f5efe1"></path>
+
+  <!-- Baobab -->
+  <path d="M236 316c7-42 10-80 8-119-24 1-46-7-60-24 20 8 39 7 57-1-10-12-23-22-40-30 23 2 41 10 55 25 16-18 36-28 61-29-17 10-28 22-36 36 20 4 38-1 56-12-12 19-33 30-61 32-4 40 0 81 11 122z" fill="#d9b45b"></path>
+  <path d="M195 321h124l-11 19H207zM225 340h64l-12 17h-40z" fill="#d9b45b"></path>
+
+  <!-- Trade route -->
+  <path d="M175 372c40 20 122 20 162 0" fill="none" stroke="#f5efe1" stroke-width="4" stroke-linecap="round"></path>
+  <circle cx="171" cy="370" r="7" fill="#f5efe1"></circle>
+  <circle cx="341" cy="370" r="7" fill="#f5efe1"></circle>
+
+  <!-- Stars -->
+  <path d="M239 391l5-10 5 10 11 1-8 7 2 11-10-5-10 5 2-11-8-7z
+           M279 391l5-10 5 10 11 1-8 7 2 11-10-5-10 5 2-11-8-7z" fill="#d9b45b"></path>
+</svg>
