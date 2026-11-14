@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Illustration of a fresh produce market</title>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#ffe4bd"/><stop offset="1" stop-color="#fff8e9"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#sky)"/>
+  <circle cx="520" cy="82" r="42" fill="#f3a34b"/>
+  <path d="M0 279h640v121H0z" fill="#c56b45"/>
+  <path d="M75 132h490l-37 98H112z" fill="#c33d39"/>
+  <path d="M123 144h66v78h-66zm132 0h66v78h-66zm132 0h66v78h-66zm132 0h34l-25 78h-9z" fill="#f6c75c"/>
+  <path d="M93 231h454v16H93z" fill="#6c3e30"/>
+  <path d="M132 247h14v109h-14zm360 0h14v109h-14z" fill="#74442e"/>
+  <path d="M152 280q31-47 62 0v55h-62z" fill="#f2a64a"/>
+  <path d="M246 280q31-47 62 0v55h-62z" fill="#5a9a58"/>
+  <path d="M339 280q31-47 62 0v55h-62z" fill="#d84f42"/>
+  <path d="M432 280q31-47 62 0v55h-62z" fill="#e8c550"/>
+  <circle cx="177" cy="293" r="8" fill="#f8d36c"/><circle cx="201" cy="303" r="8" fill="#d95040"/>
+  <circle cx="270" cy="299" r="9" fill="#e9b64d"/><circle cx="289" cy="290" r="8" fill="#79ae56"/>
+  <circle cx="361" cy="296" r="9" fill="#f0bd4b"/><circle cx="382" cy="307" r="8" fill="#f5d166"/>
+  <circle cx="455" cy="297" r="8" fill="#e9c850"/><circle cx="478" cy="307" r="9" fill="#6f9c4c"/>
+  <path d="M0 356h640v44H0z" fill="#9e553d"/>
+</svg>

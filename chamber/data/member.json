@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Analamanga Fresh Market",
+        "address": "12 Rue Ravoninahitriniarivo, Ankorondrano, Antananarivo 101, Madagascar",
+        "phone": "+261 20 22 610 01",
+        "website": "https://analamangafresh.mg",
+        "image": "analamanga-fresh-market.svg",
+        "membershipLevel": 3,
+        "description": "A local market connecting Madagascar's growers with Antananarivo families and restaurants."
+    },
+    {
+        "name": "Baobab Digital Solutions",
+        "address": "8 Avenue de l'Indépendance, Analakely, Antananarivo 101, Madagascar",
+        "phone": "+261 20 22 610 02",
+        "website": "https://baobabdigital.mg",
+        "image": "baobab-digital-solutions.svg",
+        "membershipLevel": 2,
+        "description": "Provides web design, IT support, and digital consulting for small businesses."
+    },
+    {
+        "name": "Lemuria Eco Tours",
+        "address": "25 Lalana Rainandriamampandry, Ambohijatovo, Antananarivo 101, Madagascar",
+        "phone": "+261 20 22 610 03",
+        "website": "https://lemuriaecotours.mg",
+        "image": "lemuria-eco-tours.svg",
+        "membershipLevel": 3,
+        "description": "Organizes community-led trips to Madagascar's national parks and nature reserves."
+    },
+    {
+        "name": "Tana Craft Collective",
+        "address": "4 Rue Andrianampoinimerina, Isoraka, Antananarivo 101, Madagascar",
+        "phone": "+261 20 22 610 04",
+        "website": "https://tanacraft.mg",
+        "image": "tana-craft-collective.svg",
+        "membershipLevel": 1,
+        "description": "Showcases handcrafted textiles, homewares, and gifts made by Malagasy artisans."
+    },
+    {
+        "name": "Highland Harvest Cooperative",
+        "address": "17 Route d'Ambohimanga, Ambohibao, Antananarivo 105, Madagascar",
+        "phone": "+261 20 22 610 05",
+        "website": "https://highlandharvest.mg",
+        "image": "highland-harvest-cooperative.svg",
+        "membershipLevel": 2,
+        "description": "Supplies locally grown rice, vegetables, and spices to shops across the capital."
+    },
+    {
+        "name": "MadaBuild Construction",
+        "address": "31 Lalana Tsiombikibo, Ankadifotsy, Antananarivo 101, Madagascar",
+        "phone": "+261 20 22 610 06",
+        "website": "https://madabuild.mg",
+        "image": "madabuild-construction.svg",
+        "membershipLevel": 3,
+        "description": "A construction and renovation company serving residential and commercial clients."
+    },
+    {
+        "name": "Vanilla Sky Bakery",
+        "address": "6 Rue Docteur Villette, Antaninarenina, Antananarivo 101, Madagascar",
+        "phone": "+261 20 22 610 07",
+        "website": "https://vanillaskybakery.mg",
+        "image": "vanilla-sky-bakery.svg",
+        "membershipLevel": 1,
+        "description": "An independent bakery specializing in fresh bread, pastries, and vanilla desserts."
+    },
+    {
+        "name": "IslandLink Logistics",
+        "address": "19 Boulevard de l'Europe, Ankorondrano, Antananarivo 101, Madagascar",
+        "phone": "+261 20 22 610 08",
+        "website": "https://islandlink.mg",
+        "image": "islandlink-logistics.svg",
+        "membershipLevel": 2,
+        "description": "Coordinates freight, warehousing, and delivery services for businesses in Madagascar."
+    },
+    {
+        "name": "Ravinala Wellness Clinic",
+        "address": "10 Lalana Jeneraly Ramanantsoa, Antsahavola, Antananarivo 101, Madagascar",
+        "phone": "+261 20 22 610 09",
+        "website": "https://ravinalawellness.mg",
+        "image": "ravinala-wellness-clinic.svg",
+        "membershipLevel": 1,
+        "description": "Offers preventive health consultations and wellness services for local residents."
+    },
+    {
+        "name": "Horizon Learning Center",
+        "address": "22 Rue Andriandahifotsy, Ankadivato, Antananarivo 101, Madagascar",
+        "phone": "+261 20 22 610 10",
+        "website": "https://horizonlearning.mg",
+        "image": "horizon-learning-center.svg",
+        "membershipLevel": 3,
+        "description": "Provides language classes, professional training, and after-school learning programs."
+    }
+]

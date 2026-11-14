@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Illustration of a construction site with a crane</title>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#8ec8e8"/><stop offset="1" stop-color="#eef3d8"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#sky)"/>
+  <circle cx="535" cy="75" r="38" fill="#ffd46b"/>
+  <path d="M0 314h640v86H0z" fill="#a37b58"/>
+  <path d="M186 137h191v177H186z" fill="#d98f54"/>
+  <path d="M207 157h42v43h-42zm62 0h42v43h-42zm62 0h25v43h-25zm-124 64h42v43h-42zm62 0h42v43h-42zm62 0h25v43h-25z" fill="#d6edf0"/>
+  <path d="M100 314V59m-21 0h348m-248 0-79 32m88-32 80 32m-210-32-37-22m401 0v175m-11 0h22m-11 0v21" fill="none" stroke="#394a54" stroke-linecap="round" stroke-width="11"/>
+  <path d="M79 92h267M352 92v78" fill="none" stroke="#f2c34e" stroke-width="7"/>
+  <path d="M31 314h578" stroke="#725746" stroke-width="9"/>
+  <path d="M424 271h63v43h-63z" fill="#f0ba42"/><path d="M432 281h19v16h-19zm27 0h19v16h-19z" fill="#fff2c7"/>
+  <path d="M512 291h49v23h-49z" fill="#d45d48"/>
+</svg>

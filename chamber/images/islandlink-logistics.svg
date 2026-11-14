@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Illustration of a delivery truck transporting parcels</title>
+  <defs>
+    <linearGradient id="coast" x2="0" y2="1"><stop stop-color="#a9d9e8"/><stop offset="1" stop-color="#e1f1dc"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#coast)"/>
+  <circle cx="507" cy="90" r="40" fill="#ffe18b"/>
+  <path d="M0 276q102-42 201 3t207 0q118-44 232-4v125H0z" fill="#59a9aa"/>
+  <path d="M0 322q135-41 268 0t372 0v78H0z" fill="#388789"/>
+  <path d="M89 190h285v127H89z" fill="#e6a14c"/>
+  <path d="M374 225h91l73 68v24H374z" fill="#db694e"/>
+  <path d="M401 242h52l39 39h-91z" fill="#c5e1e4"/>
+  <path d="M117 216h73v62h-73zm93 0h73v62h-73zm93 0h45v62h-45z" fill="#f3c776"/>
+  <path d="M149 216v62m-93 0h403" stroke="#fff0c7" stroke-width="6"/>
+  <circle cx="170" cy="321" r="25" fill="#283d4b"/><circle cx="170" cy="321" r="11" fill="#e8e8d8"/>
+  <circle cx="465" cy="321" r="25" fill="#283d4b"/><circle cx="465" cy="321" r="11" fill="#e8e8d8"/>
+  <path d="m68 174 31-37 31 37m-31-28v44" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="6"/>
+</svg>

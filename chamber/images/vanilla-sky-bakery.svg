@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Illustration of fresh bread and pastries in a bakery</title>
+  <defs>
+    <linearGradient id="bakery" x2="0" y2="1"><stop stop-color="#f7e3c2"/><stop offset="1" stop-color="#f3c98d"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bakery)"/>
+  <path d="M0 303h640v97H0z" fill="#724c3a"/>
+  <path d="M73 80h494v216H73z" fill="#fff9e9"/>
+  <path d="M96 102h448v157H96z" fill="#85aebb"/>
+  <path d="M96 180h448v79H96z" fill="#dce8df"/>
+  <path d="M318 102v157" stroke="#fff9e9" stroke-width="12"/>
+  <path d="M128 238q17-61 79-46 42 10 39 48l-8 23H139z" fill="#b96735"/>
+  <path d="M163 205q-1-22 14-29 17 10 15 31m-1 0q1-22 17-28 15 11 12 30" fill="none" stroke="#f2ca78" stroke-width="6"/>
+  <path d="M369 225q18-36 47-5 29-31 48 5 13 28-17 42h-62q-29-14-16-42z" fill="#e3a34e"/>
+  <path d="M384 229q16-14 32 0m15 0q16-14 32 0" fill="none" stroke="#fff0c8" stroke-linecap="round" stroke-width="6"/>
+  <path d="M0 315h640" stroke="#d6a86b" stroke-width="9"/>
+  <path d="M233 316v84m174-84v84" stroke="#553a30" stroke-width="11"/>
+  <circle cx="510" cy="68" r="18" fill="#e6b15d"/><path d="M510 42v-15m0 82V94m-26-26h-15m82 0h-15m-44-18-11-11m58 58-11-11m0-36 11-11m-58 58 11-11" stroke="#e6b15d" stroke-width="4"/>
+</svg>

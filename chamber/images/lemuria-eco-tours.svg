@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Illustration of Madagascar's green hills and baobab trees</title>
+  <defs>
+    <linearGradient id="dawn" x2="0" y2="1"><stop stop-color="#bfe7df"/><stop offset="1" stop-color="#f8e9b9"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#dawn)"/>
+  <circle cx="485" cy="92" r="48" fill="#f4b65b"/>
+  <path d="M0 252 137 108l128 144 113-112 176 135v125H0z" fill="#639b70"/>
+  <path d="m0 291 139-95 122 95 114-105 265 122v92H0z" fill="#397b60"/>
+  <path d="M0 331q112-67 217-11t221-2q105-60 202 12v70H0z" fill="#225d4f"/>
+  <path d="M135 278c10-46 12-84 3-118m0 45-36-31m39 16 32-37m-25 77 45-24" fill="none" stroke="#704e37" stroke-linecap="round" stroke-width="17"/>
+  <path d="M75 170q22-23 45 0-23 21-45 0zm68-30q24-27 49-2-26 25-49 2zm9 57q23-25 48-1-24 24-48 1zm-68-15q21-22 42-1-21 22-42 1z" fill="#2f7654"/>
+  <path d="M456 280q15-24 30 0v26h-30z" fill="#e1c66c"/>
+  <circle cx="469" cy="274" r="15" fill="#312e2d"/><circle cx="463" cy="272" r="2" fill="#fff"/><circle cx="475" cy="272" r="2" fill="#fff"/>
+  <path d="M446 303h52m-42 0-10 15m33-15 12 15" stroke="#312e2d" stroke-linecap="round" stroke-width="6"/>
+</svg>

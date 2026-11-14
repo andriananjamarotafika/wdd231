@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Illustration of golden rice fields at harvest</title>
+  <defs>
+    <linearGradient id="morning" x2="0" y2="1"><stop stop-color="#a9d8e4"/><stop offset=".62" stop-color="#ffe6aa"/><stop offset="1" stop-color="#f6bb62"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#morning)"/>
+  <circle cx="490" cy="106" r="49" fill="#fff2bd"/>
+  <path d="M0 222q131-82 256-4 129-92 384-10v192H0z" fill="#698b58"/>
+  <path d="M0 273q161-70 320 5 163-72 320-17v139H0z" fill="#a5a64e"/>
+  <path d="M0 312q165-67 320 9 166-63 320-4v83H0z" fill="#d5a548"/>
+  <path d="M86 400q65-114 234-139m45 139q-18-105-28-134m48 134q24-116 129-164" fill="none" stroke="#f6d477" stroke-width="7" opacity=".8"/>
+  <path d="M114 320v-79m0 32-22-21m22 13 22-25m105 56v-94m0 42-24-25m24 13 25-27m157 56v-88m0 41-24-24m24 11 22-25m96 67v-84m0 36-22-20m22 9 22-24" fill="none" stroke="#658042" stroke-linecap="round" stroke-width="6"/>
+  <path d="M89 242q25-27 50 0m55-27q25-27 50 0m105-14q25-27 50 0m47 7q25-27 50 0m22-28q25-27 50 0" fill="#e5b94e"/>
+</svg>
