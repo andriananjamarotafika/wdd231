@@ -49,6 +49,29 @@
     nav a[aria-current="page"] {
         border-bottom-color: var(--secondary-color);
         background: transparent;
-        color: #fff;
+        color: var(--secondary-color);
+    }
+
+    footer {
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+        text-align: left;
+    }
+
+    .footer-social {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .footer-social,
+    .footer-meta {
+        padding-top: 0;
+        border-top: 0;
+    }
+
+    .footer-meta {
+        text-align: right;
     }
 }
