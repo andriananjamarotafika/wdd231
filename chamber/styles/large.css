@@ -50,7 +50,7 @@
 
     nav a {
         padding: 0.75rem 0.85rem;
-        border-bottom: 2px solid transparent;
+        border-bottom: 2px solid #00000000;
         border-left: 0;
         white-space: nowrap;
     }
@@ -59,7 +59,7 @@
     nav a:focus-visible,
     nav a[aria-current="page"] {
         border-bottom-color: var(--secondary-color);
-        background: transparent;
+        background: #00000000;
         color: var(--secondary-color);
     }
 
