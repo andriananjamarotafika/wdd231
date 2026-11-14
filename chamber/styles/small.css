@@ -1,9 +1,21 @@
 :root {
     --primary-color: #176B53;
-    --secondary-color: #D59B37;
+    --secondary-color: #fccb77;
     --background-color: #F7F5EF;
     --text-color: #17342F;
-    --font-family: 'Arial', sans-serif;
+    --white-color: #fff;
+    --border-color: #dce5df;
+    --image-border-color: #e0e5e2;
+    --card-shadow-color: #233d381a;
+    --list-shadow-color: #17342f14;
+    --link-hover-color: #a36c0a;
+    --font-family: 'Montserrat', 'Lato', 'Open Sans', sans-serif;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
 }
 
 header {
@@ -16,6 +28,10 @@ header {
     background: var(--primary-color);
     color: var(--background-color);
     font-family: var(--font-family);
+}
+
+h1 {
+    margin: 1rem;
 }
 
 .brand {
@@ -74,7 +90,7 @@ header {
     display: none;
     flex: 1 0 100%;
     padding-top: 0.5rem;
-    border-top: 1px solid rgb(255 255 255 / 24%);
+    border-top: 1px solid var(--secondary-color);
 }
 
 .navbar.show {
@@ -103,8 +119,8 @@ nav a:hover,
 nav a:focus-visible,
 nav a[aria-current="page"] {
     border-left-color: var(--secondary-color);
-    background: rgb(255 255 255 / 10%);
-    color: #fff;
+    background: var(--background-color) opacity(0.9);
+    color: var(--white-color);
 }
 
 nav a:focus-visible {
@@ -180,10 +196,10 @@ footer a:focus-visible {
     gap: 0.75rem;
     min-width: 0;
     padding: 1rem;
-    border: 1px solid #dce5df;
+    border: 1px solid var(--border-color);
     border-radius: 0.9rem;
-    background: #fff;
-    box-shadow: 0 4px 14px rgb(23 52 47 / 10%);
+    background: var(--white-color);
+    box-shadow: 0 4px 14px var(--card-shadow-color);
     color: var(--text-color);
     font-family: var(--font-family);
 }
@@ -195,7 +211,7 @@ footer a:focus-visible {
     border-bottom: 3px solid var(--secondary-color);
     border-radius: 0.9rem 0.9rem 0 0;
     background: var(--primary-color);
-    color: #fff;
+    color: var(--white-color);
     font-size: clamp(1.1rem, 4vw, 1.4rem);
     line-height: 1.2;
     text-align: center;
@@ -206,7 +222,7 @@ footer a:focus-visible {
     grid-area: image;
     width: 100%;
     aspect-ratio: 1;
-    border: 1px solid #e0e5e2;
+    border: 1px solid var(--image-border-color);
     border-radius: 0.65rem;
     background: var(--background-color);
     object-fit: cover;
@@ -241,7 +257,7 @@ footer a:focus-visible {
 
 .card a:hover,
 .card a:focus-visible {
-    color: #a36c0a;
+    color: var(--link-hover-color);
     text-decoration: underline;
     text-underline-offset: 0.15em;
 }
@@ -257,11 +273,11 @@ footer a:focus-visible {
     gap: 0.4rem;
     margin: 0;
     padding: 1rem;
-    border: 1px solid #dce5df;
+    border: 1px solid var(--border-color);
     border-left: 4px solid var(--primary-color);
     border-radius: 0.65rem;
-    background: #fff;
-    box-shadow: 0 2px 8px rgb(23 52 47 / 8%);
+    background: var(--white-color);
+    box-shadow: 0 2px 8px var(--list-shadow-color);
     color: var(--text-color);
     list-style: none;
 }
@@ -289,7 +305,7 @@ footer a:focus-visible {
     padding: 0.55rem 1rem;
     border: 1px solid var(--primary-color);
     border-radius: 0.3rem;
-    background: #fff;
+    background: var(--white-color);
     color: var(--primary-color);
     font: inherit;
     cursor: pointer;
@@ -298,5 +314,5 @@ footer a:focus-visible {
 .view-toggle button:hover,
 .view-toggle button:focus-visible {
     background: var(--primary-color);
-    color: #fff;
+    color: var(--white-color);
 }

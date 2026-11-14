@@ -7,7 +7,7 @@
 
     .list-company>li span+span {
         padding-left: 1rem;
-        border-left: 1px solid #dce5df;
+        border-left: 1px solid var(--border-color);
     }
 
     header {

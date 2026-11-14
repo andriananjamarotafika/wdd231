@@ -52,7 +52,7 @@ const listViewButton = document.getElementById('list-view');
 
 const fetchData = async () => {
     try {
-        const response = await fetch("data/member.json");
+        const response = await fetch("data/members.json");
         if (!response.ok) {
             throw new Error(`Request failed ${response.status}`);
         }
