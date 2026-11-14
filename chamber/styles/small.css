@@ -3,7 +3,7 @@
     --secondary-color: #eed5aa;
     --background-color: #F7F5EF;
     --text-color: #17342F;
-    --white-color: #fff;
+    --w-color: #fff;
     --border-color: #dce5df;
     --image-border-color: #e0e5e2;
     --card-shadow-color: #233d381a;
@@ -120,7 +120,7 @@ nav a:focus-visible,
 nav a[aria-current="page"] {
     border-left-color: var(--secondary-color);
     background: var(--background-color) opacity(0.9);
-    color: var(--white-color);
+    color: var(--w-color);
 }
 
 nav a:focus-visible {
