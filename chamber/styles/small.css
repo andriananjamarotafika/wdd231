@@ -158,3 +158,145 @@ footer a:focus-visible {
 .footer-meta {
     font-size: 0.9rem;
 }
+
+.list-company {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    box-sizing: border-box;
+    width: min(100%, 60rem);
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: clamp(5rem, 22vw, 7rem) minmax(0, 1fr);
+    grid-template-areas:
+        "heading heading"
+        "image phone"
+        "image website";
+    align-items: center;
+    gap: 0.75rem;
+    min-width: 0;
+    padding: 1rem;
+    border: 1px solid #dce5df;
+    border-radius: 0.9rem;
+    background: #fff;
+    box-shadow: 0 4px 14px rgb(23 52 47 / 10%);
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+
+.card h2 {
+    grid-area: heading;
+    margin: -1rem -1rem 0;
+    padding: 1rem 1rem 0.85rem;
+    border-bottom: 3px solid var(--secondary-color);
+    border-radius: 0.9rem 0.9rem 0 0;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: clamp(1.1rem, 4vw, 1.4rem);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.card img {
+    display: block;
+    grid-area: image;
+    width: 100%;
+    aspect-ratio: 1;
+    border: 1px solid #e0e5e2;
+    border-radius: 0.65rem;
+    background: var(--background-color);
+    object-fit: cover;
+}
+
+.card p {
+    grid-area: phone;
+    margin: 0;
+    padding: 0.65rem 0.75rem;
+    border-left: 3px solid var(--secondary-color);
+    border-radius: 0.35rem;
+    background: var(--background-color);
+    font-size: 0.9rem;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+}
+
+.card a {
+    display: block;
+    grid-area: website;
+    padding: 0.65rem 0.75rem;
+    border-left: 3px solid var(--primary-color);
+    border-radius: 0.35rem;
+    background: var(--background-color);
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+    text-decoration: none;
+}
+
+.card a:hover,
+.card a:focus-visible {
+    color: #a36c0a;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.card b {
+    color: var(--primary-color);
+}
+
+.list-company>li {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.4rem;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid #dce5df;
+    border-left: 4px solid var(--primary-color);
+    border-radius: 0.65rem;
+    background: #fff;
+    box-shadow: 0 2px 8px rgb(23 52 47 / 8%);
+    color: var(--text-color);
+    list-style: none;
+}
+
+.list-company>li span:first-child {
+    color: var(--primary-color);
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.list-company>li span:not(:first-child) {
+    font-size: 0.9rem;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+}
+
+.view-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem auto;
+}
+
+.view-toggle button {
+    padding: 0.55rem 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.3rem;
+    background: #fff;
+    color: var(--primary-color);
+    font: inherit;
+    cursor: pointer;
+}
+
+.view-toggle button:hover,
+.view-toggle button:focus-visible {
+    background: var(--primary-color);
+    color: #fff;
+}

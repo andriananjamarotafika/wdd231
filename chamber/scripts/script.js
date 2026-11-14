@@ -19,11 +19,15 @@ const displayDataAsGrid = (data) => {
         website.setAttribute('href', item.website);
         website.innerHTML = `<b>Website:</b> ${item.website}`;
 
+        const card = document.createElement('div');
+        card.classList.add('card');
+        card.appendChild(name);
+        card.appendChild(image);
+        card.appendChild(phone);
+        card.appendChild(website);
+
         const listCompany = document.querySelector('.list-company');
-        listCompany.appendChild(name);
-        listCompany.appendChild(image);
-        listCompany.appendChild(phone);
-        listCompany.appendChild(website);
+        listCompany.appendChild(card);
     });
 }
 
