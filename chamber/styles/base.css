@@ -1,0 +1,262 @@
+/** THIS FILE CONTAIN ALL HEADER NAVIGATION FOOTER THAT ALL PAGES HAVE IN COMMON **/
+
+
+:root {
+    --primary-color: #176B53;
+    --secondary-color: #eed5aa;
+    --background-color: #bfebf3;
+    --text-color: #000000;
+    --w-color: #ffffff;
+    --border-color: #dce5df;
+    --image-border-color: #e0e5e2;
+    --card-shadow-color: #233d381a;
+    --list-shadow-color: #17342f14;
+    --link-hover-color: #a36c0a;
+    --font-family: 'Montserrat', 'Lato', 'Open Sans', sans-serif;
+}
+
+/*THIS FUNCTIONALITY MAINTAIN THE FOOTER IN THE BOTTOM*/
+body {
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: var(--font-family);
+}
+
+
+main {
+    flex: 1;
+    margin: 0 2rem;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 4px solid var(--secondary-color);
+    background: var(--primary-color);
+    color: var(--background-color);
+    font-family: var(--font-family);
+}
+
+.brand {
+    display: flex;
+    flex: 1 1 0;
+    align-items: center;
+    gap: 0.75rem;
+    min-width: 0;
+}
+
+.brand img {
+    width: 3.25rem;
+    height: 3.25rem;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    background: var(--background-color);
+}
+
+#nav-button {
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 0;
+    border: 0;
+    background: #00000000;
+    cursor: pointer;
+}
+
+#nav-button:focus-visible {
+    outline: 2px solid var(--secondary-color);
+    outline-offset: 3px;
+}
+
+.hamburger::before {
+    content: "\2630";
+    color: var(--background-color);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.75rem;
+    line-height: 1;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+.navbar {
+    display: none;
+    flex: 1 0 100%;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--secondary-color);
+}
+
+.navbar.show {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 0.75rem;
+    border-left: 3px solid #00000000;
+    color: var(--background-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus-visible,
+nav a[aria-current="page"] {
+    border-left-color: var(--secondary-color);
+    background: var(--background-color) opacity(0.9);
+    color: var(--w-color);
+}
+
+nav a:focus-visible {
+    outline: 2px solid var(--secondary-color);
+    outline-offset: 2px;
+}
+
+footer {
+    display: grid;
+    gap: 1.25rem;
+    padding: 1.75rem 1rem;
+    border-top: 4px solid var(--secondary-color);
+    background: var(--primary-color);
+    color: var(--background-color);
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+footer h2 {
+    margin: 0 0 0.65rem;
+    color: var(--secondary-color);
+    font-size: 1.05rem;
+}
+
+footer p {
+    margin: 0.4rem 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+footer address {
+    font-style: normal;
+}
+
+footer a {
+    color: inherit;
+    text-underline-offset: 0.2em;
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+}
+
+footer a:focus-visible {
+    outline: 2px solid var(--secondary-color);
+    outline-offset: 3px;
+}
+
+.footer-meta {
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 700px) {
+    header {
+        flex-wrap: nowrap;
+        gap: 2rem;
+        padding: 1rem clamp(1.5rem, 5vw, 5rem);
+    }
+
+
+    .brand {
+        flex: 0 1 auto;
+        gap: 1rem;
+    }
+
+    .brand img {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .brand span {
+        max-width: 10rem;
+        font-size: larger;
+    }
+
+
+    #nav-button {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+        flex: 1 1 auto;
+        padding: 0;
+        border: 0;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 0.5rem;
+    }
+
+    nav a {
+        padding: 0.75rem 0.85rem;
+        border-bottom: 2px solid #00000000;
+        border-left: 0;
+        white-space: nowrap;
+    }
+
+    nav a:hover,
+    nav a:focus-visible,
+    nav a[aria-current="page"] {
+        border-bottom-color: var(--secondary-color);
+        background: #00000000;
+        color: var(--secondary-color);
+    }
+
+    footer {
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+        text-align: left;
+    }
+
+    .footer-social {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .footer-social,
+    .footer-meta {
+        padding-top: 0;
+        border-top: 0;
+    }
+
+    .footer-meta {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    main {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
