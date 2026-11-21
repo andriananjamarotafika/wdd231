@@ -1,3 +1,16 @@
+const h2 = document.createElement("h2");
+h2.setAttribute("id", "town");
+const img = document.createElement("img");
+img.setAttribute("id", "image");
+const p1 = document.createElement("p");
+const p2 = document.createElement("p");
+p1.setAttribute("id", "temperature");
+p2.setAttribute("id", "description");
+const cardWeather = document.querySelector(".card-weather");
+cardWeather.appendChild(h2);
+cardWeather.appendChild(img);
+cardWeather.appendChild(p1);
+cardWeather.appendChild(p2);
 const town = document.getElementById("town");
 const description = document.getElementById("description");
 const image = document.getElementById("image");
