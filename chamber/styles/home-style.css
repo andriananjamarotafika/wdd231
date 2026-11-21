@@ -58,6 +58,21 @@ img {
     font-weight: 400;
 }
 
+.card {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 2rem 1rem;
+    width: 30rem;
+}
+
+.member-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
 
 @media screen and (max-width : 900px) {
     .hero-grid {
@@ -70,7 +85,21 @@ img {
         height: auto;
         padding: 20px 0;
     }
+
+    .member-list {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .member-list .card {
+        width: auto;
+    }
+
 }
+
+
+
 
 @media screen and (min-width : 900px) {
     .card-main {

@@ -200,7 +200,7 @@ footer a:focus-visible {
     border-radius: 0.9rem;
     background: var(--white-color);
     box-shadow: 0 4px 14px var(--card-shadow-color);
-    color: var(--text-color);
+    color: var(--border-color);
     font-family: var(--font-family);
 }
 

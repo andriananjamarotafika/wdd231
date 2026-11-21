@@ -58,6 +58,7 @@ const fetchData = async () => {
         }
         const jsonData = await response.json();
         return jsonData;
+        console.log(jsonData);
     } catch (error) {
         console.error(`Error fetching data: ${error}`);
     }
@@ -77,5 +78,6 @@ listViewButton.addEventListener('click', () => {
     fetchData().then((data) => displayDataAsList(data));
 });
 
-//ADDING 
+//ADDING FEW LIST IN HOME PAGE
+
 
